@@ -1,10 +1,15 @@
 package student;
 
+import computer.Computer;
+import course.Course;
+
 public class Student {
 
     private String firstName;
     private String lastName;
     private int yearOfBirth;
+    private Course course;
+    private Computer computer;
 
     public String getFirstName() {
         return this.firstName;
@@ -29,7 +34,15 @@ public class Student {
     public void setYearOfBirth(int yearOfBirth) {
         this.yearOfBirth = yearOfBirth;
     }
+    
+    public Course getCourse() {
+        return this.course;
+    }
 
+    public Computer getComputer() {
+        return this.computer;
+    }
+    
     public Student() {
         this.firstName = "Velimir";
         this.lastName = "Markovic";
