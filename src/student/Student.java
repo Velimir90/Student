@@ -47,6 +47,8 @@ public class Student {
         this.firstName = "Velimir";
         this.lastName = "Markovic";
         this.yearOfBirth = 1990;
+        Course course = new Course();
+        Computer computer = new Computer();
     }
 
     public Student(String firstName, String lastName, int yearOfBirth) {
@@ -54,7 +56,7 @@ public class Student {
         this.lastName = lastName;
         this.yearOfBirth = yearOfBirth;
     }
-
+    
     public void info() {
         System.out.println("First Name: " + this.firstName);
         System.out.println("Last Name: " + this.lastName);

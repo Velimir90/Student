@@ -32,7 +32,7 @@ public class Course {
 
     public Course() {
         this.name = "Software QA course";
-        this.numberOfClasses = 50;
+        this.numberOfClasses = 32;
         this.codeName = "QA";
     }
 
