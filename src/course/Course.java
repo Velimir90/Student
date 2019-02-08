@@ -18,7 +18,7 @@ public class Course {
         return this.numberOfClasses;
     }
 
-    public void setLastName(int numberOfClasses) {
+    public void setNumberOfClasses(int numberOfClasses) {
         this.numberOfClasses = numberOfClasses;
     }
 
